@@ -1,6 +1,6 @@
 {
   "name": "react-relative-time",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React Component for rendering relative dates as <time> HTML5 elements",
   "main": "./lib/RelativeTime",
   "eslintConfig": {
