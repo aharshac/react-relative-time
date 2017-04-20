@@ -2,7 +2,7 @@
   "name": "react-relative-time",
   "version": "0.0.4",
   "description": "React Component for rendering relative dates as <time> HTML5 elements",
-  "main": "index.js",
+  "main": "./lib/RelativeTime",
   "eslintConfig": {
     "extends": "prometheusresearch"
   },

@@ -2,3 +2,4 @@ node_modules
 example/assets
 lib/
 commands.txt
+index.js
