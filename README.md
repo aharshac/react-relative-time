@@ -1,10 +1,14 @@
 # React Relative Time
 
-[![Collaborizm](https://img.shields.io/badge/Collaborizm-Join%20now-blue.svg)](https://www.collaborizm.com/)  [![Build Status](https://travis-ci.org/aharshac/react-relative-time.svg?branch=master)](https://travis-ci.org/aharshac/react-relative-time)
+[![Collaborizm](https://img.shields.io/badge/Collaborizm-Join%20now-blue.svg)](https://www.collaborizm.com/) [![Build Status](https://travis-ci.org/aharshac/react-relative-time.svg?branch=master)](https://travis-ci.org/aharshac/react-relative-time)    
+
+ [![NPM](https://nodei.co/npm/react-relative-time.png?mini=true)](https://nodei.co/npm/react-relative-time/)
 
 
 React Component for rendering relative dates as `<time>` HTML5 element and preserving machine readable format in `datetime`
 attribute.
+
+Does not depend on [**moment.js**](https://momentjs.com)
 
 &nbsp;
 
