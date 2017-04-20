@@ -8,7 +8,15 @@
 React Component for rendering relative dates as `<time>` HTML5 element and preserving machine readable format in `datetime`
 attribute.
 
-Does not depend on [**moment.js**](https://momentjs.com)
+Does not depend on [**moment.js**](https://github.com/moment/moment)
+
+&nbsp;
+
+## Acknowledgement
+This module was inspired by a few awesome open source projects.
+* [**moment.js**](https://github.com/moment/moment)
+* [**react-time**](https://github.com/andreypopp/react-time)
+* [**timeago**](http://timeago.yarp.com/)
 
 &nbsp;
 

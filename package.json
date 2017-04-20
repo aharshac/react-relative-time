@@ -7,6 +7,7 @@
     "extends": "prometheusresearch"
   },
   "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec"
   },
   "repository": {
