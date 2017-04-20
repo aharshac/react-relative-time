@@ -10,7 +10,7 @@ attribute.
 
 ## Installation
 ```
-npm install react-time
+npm install react-relative-time
 ```  
 
 &nbsp;
@@ -60,12 +60,14 @@ Default: `iso8601`.
 Supported formats:
 * `iso8601` - ISO-8601 date string
 * *Custom string placeholders*.   
-  Supports only numbers.   
+  Replaces with numbered date/time. Text like "Sunday", "Mon", etc. are not supported.   
   Ex: `YYYY/MM/DD HH:mm`    
-  ```
-  M = month
-  D = date
-  H = hour
-  m = minute
-  s = second
-  ```
+
+Supported number placeholders:
+```
+M = month
+D = date
+H = hour
+m = minute
+s = second
+```
