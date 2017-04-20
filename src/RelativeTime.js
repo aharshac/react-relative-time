@@ -23,7 +23,7 @@ export default class RelativeTime extends React.Component {
 
 
   static defaultProps = {
-    titleFormat: 'YYYY-MM-DD HH:mm',
+    titleFormat: 'iso8601',
   }
 
 
@@ -141,6 +141,10 @@ export default class RelativeTime extends React.Component {
       return '';
     }
 
+    if (pattern.toLowerCase() === 'iso8601') {
+      return date.toISOString();
+    }
+
     let patterns = {
       M: date.getMonth() + 1,
       D: date.getDate(),
@@ -189,7 +193,7 @@ export default class RelativeTime extends React.Component {
 
 
     /* Format conversion */
-    let machineReadable = this.format(date, 'YYYY-MM-DDTHH:mm:ssZ');    //  ISO-8601
+    let machineReadable = this.format(date, 'iso8601');    //  ISO-8601
     let humanReadable = this.relativeTimeString(date);
 
     return (
